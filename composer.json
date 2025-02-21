@@ -1,5 +1,5 @@
 {
-    "name": "zxing/qr-reader",
+    "name": "thiagolp90/qr-reader",
     "description": "PHP qr code reader library",
     "keywords": [
         "php",
