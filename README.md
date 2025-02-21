@@ -1,8 +1,9 @@
-### PHP QR Decoder 
-> this package is a fork of `zxing/qr-reader` to fix a bug when reading file using GD
+## PHP QR Decoder 
 
 ### How to install
 `composer require thiagolp90/qr-reader`
+
+> this package is a fork of `zxing/qr-reader` to fix a bug when reading file using GD
 
 ### How to use
 ```
