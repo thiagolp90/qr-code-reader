@@ -1,19 +1,19 @@
-#php qr decoder 
-> php识别二维码, 不需要安装扩展 从哪里弄来的我也忘了，毕竟好几年了
+### PHP QR Decoder 
+> this package is a fork of `zxing/qr-reader` to fix a bug when reading file using GD
 
-### 安装
-`composer require zxing/qr-reader`
+### How to install
+`composer require thiagolp90/qr-reader`
 
-### 使用
+### How to use
 ```
 include __DIR__.'/vendor/autoload.php';
 
-$qrcode = new \Zxing\QrReader('./qr.png');  //图片路径
-$text = $qrcode->text(); //返回识别后的文本
+$qrcode = new \Zxing\QrReader('./qr.png');  //Image path
+$text = $qrcode->text(); //Return text 
 echo $text;
 ```
 
-### 需要
+### Requirements
 ```
 PHP >= 5.3
 GD Library
